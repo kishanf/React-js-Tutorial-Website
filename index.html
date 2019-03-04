@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>KISHAN FOKEER</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link type="text/javascript" href="js/jquery.js">
+</head>
+
+<body>
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1></h1>
+    </div>
+  </div>
+
+
+
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60"></body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="glyphicon glyphicon-th logo-1"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="index.html">HOME</a>
+          </li>
+          <li>
+            <a href="tutorial.html">TUTORIAL</a>
+          </li>
+          <li>
+            <a href="Reflection.html">REFLECTION</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div id="bootstrap2" class="container-fluid bg-grey">
+    <div class="row">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-file logo"></span>
+      </div>
+
+      <div class="col-sm-8">
+        <h2>
+          <strong>What is React.js</strong>
+        </h2>
+        <h4>
+          <strong></strong>
+        </h4>
+        <p>
+          <strong>React.js or ReactJS</strong> is a front end JavaScript library for building user interfaces. It was created by
+          Facebook and was first used on their site in 2011 however it did not come into open source until mid 2013; Instagram.com
+          is written entirley through the React JavaScript libraries. React.js essentially allows developers to create large
+          web based applications with speed, simplicity and scalabilty. it is currently amoung the most popular JavaScript
+          libraries available; with a large community of developers backing it. It uses Declarative views so that your code
+          is more predictable and easier to debug, it encourages the creation of reusable code and a reuseable UI Componets.
+          React.js has multiple big coperate users such as Netflix, Airbnb and PayPal; according to the live statistics you
+          can find on Libscore.com.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="newmarket" class="container-fluid text-center">
+    <h2>ABOUT</h2>
+    <h4>React.js</h4>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-object-align-left logo-small"></span>
+        <h4>Virtual DOM</h4>
+      </div>
+      <div class="col-sm-4">
+        <span class="count">1455</span>
+        </span>
+        <h4> Websites Currently Use</h4>
+        <p>REACT.JS</p>
+      </div>
+
+      <!-- could use IMPORT for this glyphicon -->
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-share logo-small"></span>
+        <h4>One-way Data Flow</h4>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-text-size logo-small"></span>
+        <h4>Written In</h4>
+        <p>JSX</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-user logo-small"></span>
+        <h4>Developed by</h4>
+        <p>Facebook</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-globe logo-small"></span>
+        <h4>Used to Create</h4>
+        <p>Large Web-applications</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <footer class="container-fluid bg-4 text-center">
+    <a href="mailto:ckf11@uni.brighton.ac.uk"> Email: Kishan Fokeer</a>
+    <p>&copy; Kishan Fokeer 2018 </p>
+  </footer>
+
+  <!--/Script for number stat count -->
+
+  <script>
+    $('.count').each(function () {
+      $(this).prop('Counter', 0).animate({
+        Counter: $(this).text()
+      }, {
+          duration: 10000,
+          easing: 'swing',
+          step: function (now) {
+            $(this).text(Math.ceil(now));
+          }
+        });
+    });
+  </script>
+
+
+</body>
+
+</html>

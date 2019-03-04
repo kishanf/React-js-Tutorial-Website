@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>KISHAN FOKEER</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link type="text/javascript" href="js/jquery.js">
+</head>
+
+<body>
+
+    <div class="hero-image1">
+        <div class="hero-text1">
+        </div>
+    </div>
+
+
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60"></body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="glyphicon glyphicon-th logo-1"></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#firstpart">PACKAGE INSTALLATION</a>
+                    </li>
+                    <li>
+                        <a href="#secondpart">CREATING FILES</a>
+                    </li>
+                    <li>
+                        <a href="Reflection.html">REFLECTION</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="Prerequisites" class="container-fluid bg-grey">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/nodejs.png" class="img-rounded" alt="">
+            </div>
+            <div class="col-sm-8">
+                <h2>Prerequisites</h2>
+                <p>
+                    <strong>You will need to have Node.js installed and some basic prior knowledge in regards to using the CMD, HTML
+                        and Javascript. If you dont already have Node.js installed
+                        <a href="https://nodejs.org/en/">Click Here</a>
+                        to be taken direclty to the devlopers website so you can download the latest version.
+                    </strong>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Prerequisites" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12"></div>
+            <p>
+                <strong> This tutorial is to show you howo to set up a successful enviroment to develop react in. This tutorial is
+                    meant to be a little introduction into the concepts of react.js and how it is different from html and
+                    css in the sense that it uses virtual DOM which improves app peformance this is due to virtual DOM being
+                    alot faster and responsive than the regualar standard of DOM.
+
+                </strong>
+            </p>
+        </div>
+    </div>
+    </div>
+
+    <div id="firstpart" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>React.js Development Enviroment Setup </h2>
+                <h4>There are many steps involed in this first part I will be showing you the installation of packages and plugins
+                    through the command prompt</h4>
+                <p> First we have to create the root folder, this is where all applicaton files will be stored. We will place
+                    it on our desktop so it is easy to locate and route to. Open up your CMD or Terminal depending on which
+                    OS you're running and enter the command below, i'm using OSX i'll be running all of this in Terminal
+                    which will look different but the paths and directories are the same. For those of you who use windows
+                    you would enter -
+                    <strong>\Users\username\Desktop\mkdir reactdemo</strong> Check your desktop as you should now have a folder called
+                    reactdemo; now we will create an empty json package enter
+                    <strong>\Users\username\Desktop\reactdemo >npm init</strong>, now you will be prompted with a list of instructions
+                    for installing packages.
+                </p>
+                <img src="images/1.png" class="image2" alt="">
+                <p>Now we are going to be installing several Babel packages and plugins some local and some global. start by
+                    entering
+                    <strong>\Users\username\Desktop\reactdemo >npm install -g babel</strong> and
+                    <strong>\Users\username\Desktop\reactdemo >npm install -g babel-cli</strong>. Babel is a transpiler for JS, it
+                    is known for being able to turn ES6 into code that is able to run in browsers and servers, So it is extremly
+                    useful when creating web applications.
+                </p>
+                <img src="images/22.png" class="image2">
+                <p>Next we are going to be installing webpack which is javascript module bundler, it puts all your assests into
+                    a dependency graph. enter the following
+                    <strong>\Users\username\Desktop\reactdemo >npm install webpack --save</strong> and
+                    <strong>\Users\username\Desktop\reactdemo >npm install webpack-dev-server-save</strong>. Now we are going to
+                    install React while still using the command promt, enter the following
+                    <strong>\Users\username\Desktop\reactdemo >npm install react --save</strong> and
+                    <strong>\Users\username\Desktop\reactdemo >npm install react-dom --save</strong>. There are now 4 babel plugins
+                    which you are to install I will list the first one then install the rest via the use of the picture included
+                    below;
+                    <strong>\Users\username\Desktop\reactdemo >npm babel-core</strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+               
+                <div class="row">
+                    <a target="_blank" href="images/44.png">
+                        <img src="images/44.png" alt="React" class="image3">
+                    </a>
+                </div>
+<br>
+                <div class="row">
+                    <a target="_blank" href="images/45.png">
+                        <img src="images/45.png" alt="React" class="image3">
+                    </a>
+                </div>
+                <br>
+                <div class="row">
+                    <a target="_blank" href="images/3.png">
+                        <img src="images/3.png" alt="React" class="image3">
+                    </a>
+                </div>
+                <br>
+                <div class="row">
+                    <a target="_blank" href="images/4.png">
+                        <img src="images/4.png" alt="Reactdom" class="image3">
+                    </a>
+                </div>
+                <br>
+                <div class="row">
+                    <a target="_blank" href="images/4.png">
+                        <img src="images/55.png" class="image3" alt="Reactdom" >
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+
+
+    <div id="secondpart" class="container-fluidd bg-grey">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/9.png" class="img-responsive" alt="">
+            </div>
+            <div class="col-sm-8">
+                <h2>Creating the files</h2>
+                <p>
+                    <strong>Now we are going to create several filies within the folder you have created on your desktop already
+                        previous steps; This step can be done manually but it is also easier through the use of the command
+                        prompt. We will be creating 4 files which you will be adding script and text to later on in the tutorial,
+                        there will be one HTML file, one JSX file, one JS file and one webpack file to help consolidate everything.
+                    </strong>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="webpack" class="container-fluidd bg-grey">
+        <div class="row">
+
+            <div class="col-sm-8">
+                <h2>Webpack configuration</h2>
+                <p>
+                    <strong> You're now going to want to open up the package.json and delete the "TEST: echo" line and replace it
+                        with webpack-dev-server --hot". we are deleting this since we have no use for testing the classes
+                        right now.<br> 
+                        We are using webpack because it is a module bundler which helps to split the application into multiple file; this helps 
+                    by splitting our code into chunks and loading them on demand. Loading them on demand is useful in the sense that it helps us in reducing the loading
+                time of our application. webpack is an extremely helpful tool to have becasue once you specify a single path it does the rest 
+            of the work by going through you application and working out how everything is connected throught the values in your css; this 
+            tends to be very helpful in regards to single page applications which are becoming the most popular type of web applications.
+        </strong>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/10.png" class="img-responsive" alt="">
+                <br>
+                <img src="images/11.png" class="img-responsive" alt="">
+            </div>
+
+            <div id="Webpack" class="container-fluidd bg-grey">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="images/112.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-sm-8">
+                        <h2>Webpack.config.js</h2>
+                        <p>
+                            <strong>Open up the webpack.config file which we created a short while ago and populate it with the code
+                                that is in the picture besides. You can set your port to which you like I believe I set mine
+                                to 5000.
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="POP" class="container-fluid">
+        <div class="row">
+
+            <div class="col-sm-8">
+                <h2>Adding the Script</h2>
+                <p>
+                    <strong>Now you're going to want to open up the HTML file and enter the script which is shown in the image. It
+                        is regualr HTML the div id is set to app for our rooted element. we are also calling out index.js
+                        script class which is going to be bundled all together. </strong>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/14.png" class="img-responsive" alt="">
+            </div>
+
+            <div id="APP.jsx and Main.js" class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="images/15.png" class="img-responsive" alt="">
+                        <br>
+                        <img src="images/16.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-sm-8">
+                        <h2>APP.jsx and Main.js</h2>
+                        <p>
+                            <strong>Do the same as before by opening up the files and copying over the code from the pictures as
+                                before. The first picture goes into the jsx file and this is where you will be writing HELLO
+                                WORLD! or whichever output you would like.JSX is the lanuages which react.js uses. Copy the
+                                code from the next picture and put that into your main.js file this is importing all of the
+                                react elements will be imported and rooted from this file; this is becasue if you want to
+                                you a component we have to make it usable by importing it first.
+                                <br>
+                                As I mentioned before JSX is the lanuage which React uses, it is a statically typed OOP language
+                                designed to run on current web browsers. JSX is is faster this is due to the face that it optimises while
+                                compiling all of the source code; this results in the compiled code running faster than similar code written
+                                via the use of JavaScript. Offering a solid class system similar to Java it allows developers to get away from 
+                                the inheritence system supplied by JavaScript.
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="firstpart" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Finished! </h2>
+                <p> Now you're able to launch your site with the use of the port number which you ser up before it will ve https://localhost:5000/
+                    it is 5000 in my clase because that's the number which I set for my port a few step back. Before you
+                    can launch you site you must start the server through the use of the Command Prompt enter
+                    <strong>reactdemo >npm start</strong> this will start your server and give you your port number. I have included
+                    two pictures below to show you how it should look.
+                </p>
+                <img src="images/13.png" class="image3" alt="">
+                <p></p>
+                <img src="images/18.png" class="image3" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="container-fluid bg-4 text-center">
+        <a href="mailto:ckf11@uni.brighton.ac.uk"> Email: Kishan Fokeer</a>
+        <p>&copy; Kishan Fokeer 2018 </p>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links in navbar
+            $(".navbar a, footer a[href='#tester']").on('click', function (event) {
+
+                if (this.hash !== "") {
+
+
+                    event.preventDefault();
+
+
+                    var hash = this.hash;
+
+
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function () {
+
+
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        })
+        $(window).scroll(function () {
+            $(".slideanim").each(function () {
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 600) {
+                    $(this).addClass("slide");
+                }
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>
